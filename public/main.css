@@ -1,0 +1,57 @@
+body{
+    background-color: pink;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(17,auto) auto ;
+    width: 85%;
+    margin: auto;
+    max-width: 100%;
+    background-color: white;
+    padding: 10px;
+    overflow: none;
+}
+.element-number{
+    float: left;
+    font-size: 0.5em;
+    position: absolute;
+}
+/* .grid:hover{
+    background-color: red;
+} */
+.grid-element{
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 1px;
+}
+/* .grid-element:hover{
+    background-color: lightblue;
+    transition: transform .2s; 
+    transform: scale(3);
+} */
+.noble-gas{
+    background: linear-gradient(60deg, #d2eef3, #2d8dc5);;
+}
+
+.element-2{
+    grid-column-start: -2;
+}
+.element-5{
+    grid-column-start: 13;
+}
+.element-13{
+    grid-column-start: 13;
+}
+.element-57,
+.element-74
+{
+    grid-column-start: 4;
+}
+.element-89,
+.element-105{
+    grid-column-start: 3;
+}
